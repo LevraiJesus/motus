@@ -1,4 +1,4 @@
-    //liste de mots possibles parmi lesquels un mot sera choisi au hasard
+    //liste de mot
     const mots = ["risque", "actuel", "cheval", "paquet", "examen", "buveur", "cabine"];
     
     //choisir un mot aleatoirement dans la liste
