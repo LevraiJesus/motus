@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #292E49, #536976, #86aa95); 
+}
+
+.container {
+    text-align: center;
+}
+
+#titre {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.couleurO {
+    color: yellow; 
+    font-size: 55px;
+    font-weight: bold;
+        font-family: "Gill Sans", sans-serif;
+
+}
+
+#jeu {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.lettre {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.correct {
+    background-color: red;
+    color: #fff;
+}
+
+.mauvaisEndroit {
+    background-color: yellow;
+    color: #333;
+}
+
+.faux {
+    background-color: #333;
+    color: #fff;
+}
+
+#proposition {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+#valider {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
